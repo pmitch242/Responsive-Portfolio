@@ -185,12 +185,16 @@ html, body {
     body{
         width: 100%;
     }  
+
+    .navbar-container{
+        width: 100%;
+    }
     .navbar-brand{
           width: 100%;
           margin-left: 0;
       }
 
-      .navbar-nav{
+    .navbar-nav{
           position: relative;
           bottom: -85px;
           width: 100%;
