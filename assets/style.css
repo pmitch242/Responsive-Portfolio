@@ -180,3 +180,13 @@ html, body {
       cursor: pointer;
       border: none;
   }
+
+  @media screen and (max-width: 480px){
+      .navbar-brand{
+          width: 100%;
+      }
+
+      .navbar-nav{
+          width: 100%;
+      }
+  }
