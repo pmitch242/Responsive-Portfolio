@@ -196,7 +196,8 @@ html, body {
 
     .navbar-nav{
           position: relative;
-          background:#ffffff;;
+          display: block;
+          background-color:#ffffff;;
           bottom: -85px;
           width: 100%;
           float: left;
