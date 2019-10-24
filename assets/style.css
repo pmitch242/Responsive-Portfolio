@@ -187,6 +187,7 @@ html, body {
     }  
     .navbar-brand{
           width: 100%;
+          margin-left: 0;
       }
 
       .navbar-nav{
