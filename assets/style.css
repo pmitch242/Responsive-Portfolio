@@ -11,6 +11,9 @@ body{
     margin: 0 auto;
 }
 
+
+/* Nav Bar */
+
 .navbar{
     background: #ffffff;
     margin-bottom: 30px;
@@ -49,4 +52,131 @@ body{
     margin-left: 20px;;
     line-height: 78px;
     font-size: 22px;
+    display: block;
+    flex-direction: row;
 }
+
+.navbar-nav a{
+    text-decoration: none;
+    color: #777777;
+    margin-left: #777777;
+    border-right: #f0eded solid 1px;
+    padding: 0 15px;
+}
+
+.navbar-nav a:last-child{
+    border-right: hidden;
+}
+
+/* Main Content */
+
+.main-container{
+    max-width: 960px;
+    padding: 20px;
+    background: #ffffff;
+    margin: 40px auto 0;
+    clear: both;
+    overflow: auto;
+    border: 1px solid #dddddd;
+}
+
+h1{
+    color: #4aaaa5;
+    display: block;
+    padding: 0 0 30px;
+    margin: 12px 0 25px;
+    border-bottom: #dddddd 2px solid;
+}
+
+.photome{
+    float: left;
+    padding-right: 20px;
+    height:300px;
+    clear: both;
+}
+
+.main-container p:first-child{
+    position: relative;
+    float: left;
+    right: 0;
+    width: 75%;
+}
+
+/*  footer */
+
+html, body {
+    height: 100%;
+  }
+  
+  .wrapper {
+      height: auto !important;
+      height: 100%;
+      min-height: 100%;
+      margin: 0 auto -50px;
+    }
+  
+  footer{
+      position: sticky;
+      margin-top: 70px;
+      clear: both;
+      color: #ffffff;
+      font-size: 12px;
+      border-top: 8px solid #4aaaa5;
+      background: #666666;
+      text-align: center;
+  }
+  
+  .footer,
+  .push {
+    height: 50px;
+  }
+  
+  /* Portfolio */
+  
+  .project{
+      position: relative;
+      width: 300px;
+      margin: 10px 0;
+      float: left;
+      overflow: auto;
+  }
+  
+  .project:nth-child(even){
+      margin-right: 30px;
+  }
+  
+  .project img{
+      width: 100%;
+      opacity: .8;
+  }
+  
+  .project h3{
+      position: absolute;
+      width: 100%;
+      bottom: 8px;
+      height: 50px;
+      padding: 10px;
+      background: #4aaaa5;
+      color: #e6f2f2;
+      text-align: center;
+  
+  }
+  
+  /* Contact */
+  
+  #name, #email, #message{
+      width: 100%;
+      padding-left: 5px;
+      border: #dddddd solid 1px;
+  }
+  
+  input[type=submit]{
+      font-size: 18px;
+      color: #ffffff;
+      background-color: #4aaaa5;
+      text-align: center;
+      padding: 8px 24px;
+      margin-top: 5px;
+      cursor: pointer;
+      border: none;
+  }
