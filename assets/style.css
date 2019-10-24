@@ -196,8 +196,11 @@ html, body {
 
     .navbar-nav{
           position: relative;
+          background:#ffffff;;
           bottom: -85px;
           width: 100%;
           float: left;
+          margin-bottom: 20px;
+          border-bottom: 2px solid #cccccc;
       }
   }
