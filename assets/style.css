@@ -234,13 +234,7 @@ h1{
       }
 
     .navbar-nav{
-          position: relative;
-          display: block;
-          background-color:#ffffff;;
-          bottom: -75px;
-          left: 16px;
           width: 480px;
-          border-bottom: 2px solid #cccccc;
       }
     
       .main-container{
