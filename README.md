@@ -2,6 +2,8 @@
 
 This repository ("responsive-portfolio") is where I will be displaying all of my past and current projects using bootstrap. Using bootstrap, this portfolio is able to respond to screens as small as xs.
 
+Link: https://pmitch242.github.io/responsive-portfolio/
+
 ## Responsive-Portfolio 768px Viewpoint Preview
 <img alt="768px Preview" src="assets/images/768px.png">
 
