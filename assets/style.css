@@ -50,7 +50,7 @@ body{
 .navbar-nav{
     float: right;
     text-align: center;
-    margin-left: 20px;;
+    /* margin-left: 20px; */
     line-height: 78px;
     font-size: 22px;
     display: block;
@@ -92,7 +92,7 @@ h1{
 .photome{
     float: left;
     padding-right: 20px;
-    height:300px;
+    height:240px;
     clear: both;
 }
 
@@ -105,20 +105,20 @@ h1{
 
 /* footer */
 
- html, body {
+ /* html, body {
     height: 100%;
-  }
+  } */
   
- .wrapper {
+ /* .wrapper {
       height: auto !important;
       height: 100%;
       min-height: 100%;
       margin: 0 auto -50px;
-    }
+    } */
   
   footer{
       position: sticky;
-      margin-top: 70px;
+      margin-top: 140px;
       clear: both;
       color: #ffffff;
       font-size: 12px;
@@ -127,10 +127,31 @@ h1{
       text-align: center;
   }
   
-  .footer,
+  /* .footer,
   .push {
     height: 50px;
-  }
+  } */
+
+  html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+.pb-4, .py-4{
+  padding-bottom: 0.5rem!important;
+}
+
+.pt-4, .py-4 {
+    padding-top: 0.5rem!important;
+}
   
 /* Portfolio */
   
@@ -191,9 +212,11 @@ h1{
         }
     }
 
+
   @media screen and (max-width: 640px){
     .navbar-container{
         width: 100%;
+        margin-left: 0px;
     }
     .navbar-brand{
           width: 100%;
@@ -205,8 +228,6 @@ h1{
           display: block;
           background-color:#ffffff;;
           bottom: -75px;
-          left: 16px;
-          width: 640px;
           margin-bottom: 20px;
           border-bottom: 2px solid #cccccc;
       }
@@ -227,6 +248,7 @@ h1{
 
     .navbar-container{
         width: 100%;
+        margin-left: 0;
     }
     .navbar-brand{
           width: 100%;
@@ -234,7 +256,7 @@ h1{
       }
 
     .navbar-nav{
-          width: 480px;
+          width: 100%;
       }
     
       .main-container{
