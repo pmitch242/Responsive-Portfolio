@@ -6,7 +6,7 @@ This repository ("responsive-portfolio") is where I will be displaying all of my
 <img alt="768px Preview" src="assets/images/768px.png">
 
 ## Responsive-Portfolio 480px Viewpoint Preview
-<img alt="480px Preview" src="assets/images/768px.png">
+<img alt="480px Preview" src="assets/images/480px.png">
 
 ## Usage
 About Me (index.html) - this page will provide the viewer with a short discription about who Phill Mitchell-Matsuyama is.
