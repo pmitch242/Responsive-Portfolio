@@ -214,6 +214,7 @@ body {
     .navbar-nav{
           position: relative;
           display: block;
+          width: 100%;
           background-color:#ffffff;;
           bottom: -75px;
           margin-bottom: 20px;
@@ -238,10 +239,9 @@ body {
         width: 100%;
         margin-left: 0;
     }
-    .navbar-brand{
-          width: 100%;
+    /* .navbar-brand{
           left: 0;
-      }
+      } */
 
     .navbar-nav{
           width: 100%;
