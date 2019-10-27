@@ -8,13 +8,18 @@ This repository ("responsive-portfolio") is where I will be displaying all of my
 
 ## Usage
 About Me (index.html) - this page will provide the viewer with a short discription about who Phill Mitchell-Matsuyama is.
+
 Portfolio (protfolio.html) - displays projects created by me.
+
 Contact (contact.html) - allows the viewer to message me directly from the this repository.
 
 ## Credits
 Johns Hopkins full-Stack Bootcamp
+
 Stetson Lewis
+
 Donald Hesler
+
 https://www.toptal.com/designers/subtlepatterns/
 
 My beautiful wife! Thanks for the support, I love you starfish! :)
