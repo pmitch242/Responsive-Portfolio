@@ -47,6 +47,10 @@ body{
     clear: both; 
 }
 
+.navbar-brand:hover{
+    color: #ffffff;
+}
+
 .navbar-nav{
     float: right;
     text-align: center;
@@ -104,17 +108,6 @@ h1{
 }
 
 /* footer */
-
- /* html, body {
-    height: 100%;
-  } */
-  
- /* .wrapper {
-      height: auto !important;
-      height: 100%;
-      min-height: 100%;
-      margin: 0 auto -50px;
-    } */
   
   footer{
       position: sticky;
@@ -127,11 +120,6 @@ h1{
       text-align: center;
   }
   
-  /* .footer,
-  .push {
-    height: 50px;
-  } */
-
   html,
 body {
   height: 100%;
